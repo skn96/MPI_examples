@@ -1,0 +1,112 @@
+[taifun1:18420] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././.]
+[taifun1:18420] MCW rank 1 bound to socket 0[core 1[hwt 0]]: [./B/./././././././././././././.]
+[taifun1:18430] mca: base: components_register: registering framework btl components
+[taifun1:18430] mca: base: components_register: found loaded component self
+[taifun1:18429] mca: base: components_register: registering framework btl components
+[taifun1:18429] mca: base: components_register: found loaded component self
+[taifun1:18430] mca: base: components_register: component self register function successful
+[taifun1:18430] mca: base: components_register: found loaded component sm
+[taifun1:18430] mca: base: components_register: found loaded component tcp
+[taifun1:18429] mca: base: components_register: component self register function successful
+[taifun1:18429] mca: base: components_register: found loaded component sm
+[taifun1:18429] mca: base: components_register: found loaded component tcp
+[taifun1:18430] mca: base: components_register: component tcp register function successful
+[taifun1:18430] mca: base: components_register: found loaded component vader
+[taifun1:18429] mca: base: components_register: component tcp register function successful
+[taifun1:18429] mca: base: components_register: found loaded component vader
+[taifun1:18430] mca: base: components_register: component vader register function successful
+[taifun1:18430] mca: base: components_open: opening btl components
+[taifun1:18430] mca: base: components_open: found loaded component self
+[taifun1:18430] mca: base: components_open: component self open function successful
+[taifun1:18430] mca: base: components_open: found loaded component tcp
+[taifun1:18430] mca: base: components_open: component tcp open function successful
+[taifun1:18430] mca: base: components_open: found loaded component vader
+[taifun1:18430] mca: base: components_open: component vader open function successful
+[taifun1:18430] select: initializing btl component self
+[taifun1:18430] select: init of component self returned success
+[taifun1:18430] select: initializing btl component tcp
+[taifun1:18429] mca: base: components_register: component vader register function successful
+[taifun1:18429] mca: base: components_open: opening btl components
+[taifun1:18429] mca: base: components_open: found loaded component self
+[taifun1:18429] mca: base: components_open: component self open function successful
+[taifun1:18429] mca: base: components_open: found loaded component tcp
+[taifun1:18430] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:18429] mca: base: components_open: component tcp open function successful
+[taifun1:18429] mca: base: components_open: found loaded component vader
+[taifun1:18429] mca: base: components_open: component vader open function successful
+[taifun1:18430] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:18429] select: initializing btl component self
+[taifun1:18429] select: init of component self returned success
+[taifun1:18429] select: initializing btl component tcp
+[taifun1:18429] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:18429] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:18430] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:18430] btl:tcp: Successfully bound to AF_INET port 1024
+[taifun1:18430] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[taifun1:18430] btl:tcp: examining interface eno1np0
+[taifun1:18430] btl:tcp: using ipv6 interface eno1np0
+[taifun1:18430] btl:tcp: examining interface eno2np1
+[taifun1:18430] btl:tcp: using ipv6 interface eno2np1
+[taifun1:18430] btl:tcp: examining interface ibp101s0
+[taifun1:18430] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:18429] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:18429] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:18429] btl:tcp: Successfully bound to AF_INET port 1025
+[taifun1:18429] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[taifun1:18429] btl:tcp: examining interface eno1np0
+[taifun1:18429] btl:tcp: using ipv6 interface eno1np0
+[taifun1:18429] btl:tcp: examining interface eno2np1
+[taifun1:18429] btl:tcp: using ipv6 interface eno2np1
+[taifun1:18429] btl:tcp: examining interface ibp101s0
+[taifun1:18429] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:18429] select: init of component tcp returned success
+[taifun1:18429] select: initializing btl component vader
+[taifun1:18430] select: init of component tcp returned success
+[taifun1:18430] select: initializing btl component vader
+[taifun1:18429] select: init of component vader returned success
+[taifun1:18430] select: init of component vader returned success
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: taifun1
+  Location: mtl_ofi_component.c:627
+  Error: No such file or directory (2)
+--------------------------------------------------------------------------
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+poisson.exe        0000000000415EC3  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014FBC9921730  Unknown               Unknown  Unknown
+poisson.exe        000000000040BFD2  Unknown               Unknown  Unknown
+poisson.exe        000000000040A8E2  Unknown               Unknown  Unknown
+libc-2.28.so       000014FBC977209B  __libc_start_main     Unknown  Unknown
+poisson.exe        000000000040A7EA  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+poisson.exe        0000000000415EF4  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000148595F4F730  Unknown               Unknown  Unknown
+libuct_ib.so.0.0.  000014858F6BE142  uct_rc_mlx5_iface     Unknown  Unknown
+libucp.so.0.0.0    00001485954712C2  ucp_worker_progre     Unknown  Unknown
+libmpi.so.40.20.1  00001485962C4927  mca_pml_ucx_progr     Unknown  Unknown
+libopen-pal.so.40  000014859550FBEC  opal_progress         Unknown  Unknown
+libmpi.so.40.20.1  0000148596172CB5  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.20.1  00001485961DE96A  ompi_coll_base_ba     Unknown  Unknown
+libmpi.so.40.20.1  000014859618BEA8  PMPI_Barrier          Unknown  Unknown
+libmpi_mpifh.so.4  00001485963F8983  MPI_Barrier_f08       Unknown  Unknown
+poisson.exe        000000000040C0DE  Unknown               Unknown  Unknown
+poisson.exe        000000000040A8E2  Unknown               Unknown  Unknown
+libc-2.28.so       0000148595DA009B  __libc_start_main     Unknown  Unknown
+poisson.exe        000000000040A7EA  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[33819,1],0]
+  Exit code:    174
+--------------------------------------------------------------------------
+[taifun1:18420] 1 more process has sent help message help-mtl-ofi.txt / OFI call fail
+[taifun1:18420] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

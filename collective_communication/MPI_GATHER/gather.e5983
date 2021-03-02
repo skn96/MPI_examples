@@ -1,0 +1,445 @@
+[taifun1:01325] MCW rank 0 bound to socket 0[core 0[hwt 0]], socket 0[core 1[hwt 0]], socket 0[core 2[hwt 0]], socket 0[core 3[hwt 0]]: [B/B/B/B/./././././././././././.]
+[taifun1:01325] MCW rank 1 bound to socket 0[core 4[hwt 0]], socket 0[core 5[hwt 0]], socket 0[core 6[hwt 0]], socket 0[core 7[hwt 0]]: [././././B/B/B/B/./././././././.]
+[taifun1:01325] MCW rank 2 bound to socket 0[core 8[hwt 0]], socket 0[core 9[hwt 0]], socket 0[core 10[hwt 0]], socket 0[core 11[hwt 0]]: [././././././././B/B/B/B/./././.]
+[taifun1:01325] MCW rank 3 bound to socket 0[core 12[hwt 0]], socket 0[core 13[hwt 0]], socket 0[core 14[hwt 0]], socket 0[core 15[hwt 0]]: [././././././././././././B/B/B/B]
+[taifun1:01325] MCW rank 4 bound to socket 0[core 0[hwt 0]], socket 0[core 1[hwt 0]], socket 0[core 2[hwt 0]], socket 0[core 3[hwt 0]]: [B/B/B/B/./././././././././././.]
+[taifun1:01325] MCW rank 5 bound to socket 0[core 4[hwt 0]], socket 0[core 5[hwt 0]], socket 0[core 6[hwt 0]], socket 0[core 7[hwt 0]]: [././././B/B/B/B/./././././././.]
+[taifun1:01325] MCW rank 6 bound to socket 0[core 8[hwt 0]], socket 0[core 9[hwt 0]], socket 0[core 10[hwt 0]], socket 0[core 11[hwt 0]]: [././././././././B/B/B/B/./././.]
+[taifun1:01325] MCW rank 7 bound to socket 0[core 12[hwt 0]], socket 0[core 13[hwt 0]], socket 0[core 14[hwt 0]], socket 0[core 15[hwt 0]]: [././././././././././././B/B/B/B]
+[taifun1:01325] MCW rank 8 bound to socket 0[core 0[hwt 0]], socket 0[core 1[hwt 0]], socket 0[core 2[hwt 0]], socket 0[core 3[hwt 0]]: [B/B/B/B/./././././././././././.]
+[taifun1:01325] MCW rank 9 bound to socket 0[core 4[hwt 0]], socket 0[core 5[hwt 0]], socket 0[core 6[hwt 0]], socket 0[core 7[hwt 0]]: [././././B/B/B/B/./././././././.]
+[taifun1:01332] mca: base: components_register: registering framework btl components
+[taifun1:01332] mca: base: components_register: found loaded component self
+[taifun1:01332] mca: base: components_register: component self register function successful
+[taifun1:01332] mca: base: components_register: found loaded component sm
+[taifun1:01332] mca: base: components_register: found loaded component tcp
+[taifun1:01332] mca: base: components_register: component tcp register function successful
+[taifun1:01332] mca: base: components_register: found loaded component vader
+[taifun1:01332] mca: base: components_register: component vader register function successful
+[taifun1:01332] mca: base: components_open: opening btl components
+[taifun1:01332] mca: base: components_open: found loaded component self
+[taifun1:01332] mca: base: components_open: component self open function successful
+[taifun1:01332] mca: base: components_open: found loaded component tcp
+[taifun1:01332] mca: base: components_open: component tcp open function successful
+[taifun1:01332] mca: base: components_open: found loaded component vader
+[taifun1:01332] mca: base: components_open: component vader open function successful
+[taifun1:01332] select: initializing btl component self
+[taifun1:01332] select: init of component self returned success
+[taifun1:01332] select: initializing btl component tcp
+[taifun1:01332] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01332] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01332] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01332] btl:tcp: Successfully bound to AF_INET port 1024
+[taifun1:01332] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[taifun1:01332] btl:tcp: examining interface eno1np0
+[taifun1:01332] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01332] btl:tcp: examining interface eno2np1
+[taifun1:01332] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01332] btl:tcp: examining interface ibp101s0
+[taifun1:01332] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01332] select: init of component tcp returned success
+[taifun1:01332] select: initializing btl component vader
+[taifun1:01332] select: init of component vader returned success
+[taifun1:01331] mca: base: components_register: registering framework btl components
+[taifun1:01331] mca: base: components_register: found loaded component self
+[taifun1:01331] mca: base: components_register: component self register function successful
+[taifun1:01331] mca: base: components_register: found loaded component sm
+[taifun1:01331] mca: base: components_register: found loaded component tcp
+[taifun1:01331] mca: base: components_register: component tcp register function successful
+[taifun1:01331] mca: base: components_register: found loaded component vader
+[taifun1:01331] mca: base: components_register: component vader register function successful
+[taifun1:01331] mca: base: components_open: opening btl components
+[taifun1:01331] mca: base: components_open: found loaded component self
+[taifun1:01331] mca: base: components_open: component self open function successful
+[taifun1:01331] mca: base: components_open: found loaded component tcp
+[taifun1:01331] mca: base: components_open: component tcp open function successful
+[taifun1:01331] mca: base: components_open: found loaded component vader
+[taifun1:01331] mca: base: components_open: component vader open function successful
+[taifun1:01331] select: initializing btl component self
+[taifun1:01331] select: init of component self returned success
+[taifun1:01331] select: initializing btl component tcp
+[taifun1:01331] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01331] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01330] mca: base: components_register: registering framework btl components
+[taifun1:01330] mca: base: components_register: found loaded component self
+[taifun1:01331] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01331] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01331] btl:tcp: Successfully bound to AF_INET port 1025
+[taifun1:01330] mca: base: components_register: component self register function successful
+[taifun1:01331] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[taifun1:01331] btl:tcp: examining interface eno1np0
+[taifun1:01331] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01331] btl:tcp: examining interface eno2np1
+[taifun1:01331] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01331] btl:tcp: examining interface ibp101s0
+[taifun1:01331] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01330] mca: base: components_register: found loaded component sm
+[taifun1:01330] mca: base: components_register: found loaded component tcp
+[taifun1:01331] select: init of component tcp returned success
+[taifun1:01331] select: initializing btl component vader
+[taifun1:01331] select: init of component vader returned success
+[taifun1:01330] mca: base: components_register: component tcp register function successful
+[taifun1:01330] mca: base: components_register: found loaded component vader
+[taifun1:01330] mca: base: components_register: component vader register function successful
+[taifun1:01330] mca: base: components_open: opening btl components
+[taifun1:01330] mca: base: components_open: found loaded component self
+[taifun1:01330] mca: base: components_open: component self open function successful
+[taifun1:01330] mca: base: components_open: found loaded component tcp
+[taifun1:01330] mca: base: components_open: component tcp open function successful
+[taifun1:01330] mca: base: components_open: found loaded component vader
+[taifun1:01330] mca: base: components_open: component vader open function successful
+[taifun1:01330] select: initializing btl component self
+[taifun1:01330] select: init of component self returned success
+[taifun1:01330] select: initializing btl component tcp
+[taifun1:01330] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01330] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01330] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01330] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01330] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01330] btl:tcp: Successfully bound to AF_INET port 1026
+[taifun1:01330] btl:tcp: my listening v4 socket is 0.0.0.0:1026
+[taifun1:01330] btl:tcp: examining interface eno1np0
+[taifun1:01330] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01330] btl:tcp: examining interface eno2np1
+[taifun1:01330] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01330] btl:tcp: examining interface ibp101s0
+[taifun1:01330] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01330] select: init of component tcp returned success
+[taifun1:01330] select: initializing btl component vader
+[taifun1:01330] select: init of component vader returned success
+[taifun1:01335] mca: base: components_register: registering framework btl components
+[taifun1:01335] mca: base: components_register: found loaded component self
+[taifun1:01335] mca: base: components_register: component self register function successful
+[taifun1:01335] mca: base: components_register: found loaded component sm
+[taifun1:01335] mca: base: components_register: found loaded component tcp
+[taifun1:01335] mca: base: components_register: component tcp register function successful
+[taifun1:01335] mca: base: components_register: found loaded component vader
+[taifun1:01335] mca: base: components_register: component vader register function successful
+[taifun1:01335] mca: base: components_open: opening btl components
+[taifun1:01335] mca: base: components_open: found loaded component self
+[taifun1:01335] mca: base: components_open: component self open function successful
+[taifun1:01335] mca: base: components_open: found loaded component tcp
+[taifun1:01335] mca: base: components_open: component tcp open function successful
+[taifun1:01335] mca: base: components_open: found loaded component vader
+[taifun1:01335] mca: base: components_open: component vader open function successful
+[taifun1:01335] select: initializing btl component self
+[taifun1:01335] select: init of component self returned success
+[taifun1:01335] select: initializing btl component tcp
+[taifun1:01335] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01335] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01335] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01335] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01335] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01335] btl:tcp: Attempting to bind to AF_INET port 1027
+[taifun1:01335] btl:tcp: Successfully bound to AF_INET port 1027
+[taifun1:01335] btl:tcp: my listening v4 socket is 0.0.0.0:1027
+[taifun1:01335] btl:tcp: examining interface eno1np0
+[taifun1:01335] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01335] btl:tcp: examining interface eno2np1
+[taifun1:01335] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01335] btl:tcp: examining interface ibp101s0
+[taifun1:01335] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01335] select: init of component tcp returned success
+[taifun1:01335] select: initializing btl component vader
+[taifun1:01335] select: init of component vader returned success
+[taifun1:01333] mca: base: components_register: registering framework btl components
+[taifun1:01333] mca: base: components_register: found loaded component self
+[taifun1:01333] mca: base: components_register: component self register function successful
+[taifun1:01333] mca: base: components_register: found loaded component sm
+[taifun1:01333] mca: base: components_register: found loaded component tcp
+[taifun1:01333] mca: base: components_register: component tcp register function successful
+[taifun1:01334] mca: base: components_register: registering framework btl components
+[taifun1:01334] mca: base: components_register: found loaded component self
+[taifun1:01333] mca: base: components_register: found loaded component vader
+[taifun1:01334] mca: base: components_register: component self register function successful
+[taifun1:01334] mca: base: components_register: found loaded component sm
+[taifun1:01334] mca: base: components_register: found loaded component tcp
+[taifun1:01333] mca: base: components_register: component vader register function successful
+[taifun1:01333] mca: base: components_open: opening btl components
+[taifun1:01333] mca: base: components_open: found loaded component self
+[taifun1:01333] mca: base: components_open: component self open function successful
+[taifun1:01333] mca: base: components_open: found loaded component tcp
+[taifun1:01333] mca: base: components_open: component tcp open function successful
+[taifun1:01333] mca: base: components_open: found loaded component vader
+[taifun1:01333] mca: base: components_open: component vader open function successful
+[taifun1:01333] select: initializing btl component self
+[taifun1:01333] select: init of component self returned success
+[taifun1:01333] select: initializing btl component tcp
+[taifun1:01333] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01333] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01334] mca: base: components_register: component tcp register function successful
+[taifun1:01334] mca: base: components_register: found loaded component vader
+[taifun1:01333] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01333] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01334] mca: base: components_register: component vader register function successful
+[taifun1:01333] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01333] btl:tcp: Attempting to bind to AF_INET port 1027
+[taifun1:01333] btl:tcp: Attempting to bind to AF_INET port 1028
+[taifun1:01334] mca: base: components_open: opening btl components
+[taifun1:01334] mca: base: components_open: found loaded component self
+[taifun1:01334] mca: base: components_open: component self open function successful
+[taifun1:01334] mca: base: components_open: found loaded component tcp
+[taifun1:01334] mca: base: components_open: component tcp open function successful
+[taifun1:01333] btl:tcp: Successfully bound to AF_INET port 1028
+[taifun1:01333] btl:tcp: my listening v4 socket is 0.0.0.0:1028
+[taifun1:01334] mca: base: components_open: found loaded component vader
+[taifun1:01334] mca: base: components_open: component vader open function successful
+[taifun1:01333] btl:tcp: examining interface eno1np0
+[taifun1:01333] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01333] btl:tcp: examining interface eno2np1
+[taifun1:01333] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01334] select: initializing btl component self
+[taifun1:01334] select: init of component self returned success
+[taifun1:01334] select: initializing btl component tcp
+[taifun1:01333] btl:tcp: examining interface ibp101s0
+[taifun1:01333] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01333] select: init of component tcp returned success
+[taifun1:01333] select: initializing btl component vader
+[taifun1:01334] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01334] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01333] select: init of component vader returned success
+[taifun1:01334] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01334] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01334] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01334] btl:tcp: Attempting to bind to AF_INET port 1027
+[taifun1:01334] btl:tcp: Attempting to bind to AF_INET port 1028
+[taifun1:01334] btl:tcp: Attempting to bind to AF_INET port 1029
+[taifun1:01334] btl:tcp: Successfully bound to AF_INET port 1029
+[taifun1:01334] btl:tcp: my listening v4 socket is 0.0.0.0:1029
+[taifun1:01334] btl:tcp: examining interface eno1np0
+[taifun1:01334] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01334] btl:tcp: examining interface eno2np1
+[taifun1:01334] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01334] btl:tcp: examining interface ibp101s0
+[taifun1:01334] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01334] select: init of component tcp returned success
+[taifun1:01334] select: initializing btl component vader
+[taifun1:01334] select: init of component vader returned success
+[taifun1:01336] mca: base: components_register: registering framework btl components
+[taifun1:01336] mca: base: components_register: found loaded component self
+[taifun1:01336] mca: base: components_register: component self register function successful
+[taifun1:01336] mca: base: components_register: found loaded component sm
+[taifun1:01336] mca: base: components_register: found loaded component tcp
+[taifun1:01336] mca: base: components_register: component tcp register function successful
+[taifun1:01336] mca: base: components_register: found loaded component vader
+[taifun1:01336] mca: base: components_register: component vader register function successful
+[taifun1:01336] mca: base: components_open: opening btl components
+[taifun1:01336] mca: base: components_open: found loaded component self
+[taifun1:01336] mca: base: components_open: component self open function successful
+[taifun1:01336] mca: base: components_open: found loaded component tcp
+[taifun1:01336] mca: base: components_open: component tcp open function successful
+[taifun1:01336] mca: base: components_open: found loaded component vader
+[taifun1:01336] mca: base: components_open: component vader open function successful
+[taifun1:01336] select: initializing btl component self
+[taifun1:01336] select: init of component self returned success
+[taifun1:01336] select: initializing btl component tcp
+[taifun1:01336] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01336] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01336] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01336] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01336] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01336] btl:tcp: Attempting to bind to AF_INET port 1027
+[taifun1:01336] btl:tcp: Attempting to bind to AF_INET port 1028
+[taifun1:01336] btl:tcp: Attempting to bind to AF_INET port 1029
+[taifun1:01336] btl:tcp: Attempting to bind to AF_INET port 1030
+[taifun1:01336] btl:tcp: Successfully bound to AF_INET port 1030
+[taifun1:01336] btl:tcp: my listening v4 socket is 0.0.0.0:1030
+[taifun1:01336] btl:tcp: examining interface eno1np0
+[taifun1:01336] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01336] btl:tcp: examining interface eno2np1
+[taifun1:01336] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01336] btl:tcp: examining interface ibp101s0
+[taifun1:01336] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01336] select: init of component tcp returned success
+[taifun1:01336] select: initializing btl component vader
+[taifun1:01336] select: init of component vader returned success
+[taifun1:01338] mca: base: components_register: registering framework btl components
+[taifun1:01338] mca: base: components_register: found loaded component self
+[taifun1:01338] mca: base: components_register: component self register function successful
+[taifun1:01338] mca: base: components_register: found loaded component sm
+[taifun1:01338] mca: base: components_register: found loaded component tcp
+[taifun1:01338] mca: base: components_register: component tcp register function successful
+[taifun1:01338] mca: base: components_register: found loaded component vader
+[taifun1:01338] mca: base: components_register: component vader register function successful
+[taifun1:01338] mca: base: components_open: opening btl components
+[taifun1:01338] mca: base: components_open: found loaded component self
+[taifun1:01338] mca: base: components_open: component self open function successful
+[taifun1:01338] mca: base: components_open: found loaded component tcp
+[taifun1:01338] mca: base: components_open: component tcp open function successful
+[taifun1:01338] mca: base: components_open: found loaded component vader
+[taifun1:01338] mca: base: components_open: component vader open function successful
+[taifun1:01338] select: initializing btl component self
+[taifun1:01338] select: init of component self returned success
+[taifun1:01338] select: initializing btl component tcp
+[taifun1:01338] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01338] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1027
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1028
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1029
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1030
+[taifun1:01338] btl:tcp: Attempting to bind to AF_INET port 1031
+[taifun1:01338] btl:tcp: Successfully bound to AF_INET port 1031
+[taifun1:01338] btl:tcp: my listening v4 socket is 0.0.0.0:1031
+[taifun1:01338] btl:tcp: examining interface eno1np0
+[taifun1:01338] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01338] btl:tcp: examining interface eno2np1
+[taifun1:01338] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01338] btl:tcp: examining interface ibp101s0
+[taifun1:01338] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01338] select: init of component tcp returned success
+[taifun1:01338] select: initializing btl component vader
+[taifun1:01338] select: init of component vader returned success
+[taifun1:01337] mca: base: components_register: registering framework btl components
+[taifun1:01337] mca: base: components_register: found loaded component self
+[taifun1:01337] mca: base: components_register: component self register function successful
+[taifun1:01337] mca: base: components_register: found loaded component sm
+[taifun1:01337] mca: base: components_register: found loaded component tcp
+[taifun1:01337] mca: base: components_register: component tcp register function successful
+[taifun1:01337] mca: base: components_register: found loaded component vader
+[taifun1:01337] mca: base: components_register: component vader register function successful
+[taifun1:01337] mca: base: components_open: opening btl components
+[taifun1:01337] mca: base: components_open: found loaded component self
+[taifun1:01337] mca: base: components_open: component self open function successful
+[taifun1:01337] mca: base: components_open: found loaded component tcp
+[taifun1:01337] mca: base: components_open: component tcp open function successful
+[taifun1:01337] mca: base: components_open: found loaded component vader
+[taifun1:01337] mca: base: components_open: component vader open function successful
+[taifun1:01337] select: initializing btl component self
+[taifun1:01337] select: init of component self returned success
+[taifun1:01337] select: initializing btl component tcp
+[taifun1:01337] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01337] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1027
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1028
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1029
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1030
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1031
+[taifun1:01337] btl:tcp: Attempting to bind to AF_INET port 1032
+[taifun1:01337] btl:tcp: Successfully bound to AF_INET port 1032
+[taifun1:01337] btl:tcp: my listening v4 socket is 0.0.0.0:1032
+[taifun1:01337] btl:tcp: examining interface eno1np0
+[taifun1:01337] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01337] btl:tcp: examining interface eno2np1
+[taifun1:01337] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01337] btl:tcp: examining interface ibp101s0
+[taifun1:01337] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01339] mca: base: components_register: registering framework btl components
+[taifun1:01337] select: init of component tcp returned success
+[taifun1:01337] select: initializing btl component vader
+[taifun1:01339] mca: base: components_register: found loaded component self
+[taifun1:01337] select: init of component vader returned success
+[taifun1:01339] mca: base: components_register: component self register function successful
+[taifun1:01339] mca: base: components_register: found loaded component sm
+[taifun1:01339] mca: base: components_register: found loaded component tcp
+[taifun1:01339] mca: base: components_register: component tcp register function successful
+[taifun1:01339] mca: base: components_register: found loaded component vader
+[taifun1:01339] mca: base: components_register: component vader register function successful
+[taifun1:01339] mca: base: components_open: opening btl components
+[taifun1:01339] mca: base: components_open: found loaded component self
+[taifun1:01339] mca: base: components_open: component self open function successful
+[taifun1:01339] mca: base: components_open: found loaded component tcp
+[taifun1:01339] mca: base: components_open: component tcp open function successful
+[taifun1:01339] mca: base: components_open: found loaded component vader
+[taifun1:01339] mca: base: components_open: component vader open function successful
+[taifun1:01339] select: initializing btl component self
+[taifun1:01339] select: init of component self returned success
+[taifun1:01339] select: initializing btl component tcp
+[taifun1:01339] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[taifun1:01339] btl: tcp: Found match: 127.0.0.1 (lo)
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1024
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1025
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1026
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1027
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1028
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1029
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1030
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1031
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1032
+[taifun1:01339] btl:tcp: Attempting to bind to AF_INET port 1033
+[taifun1:01339] btl:tcp: Successfully bound to AF_INET port 1033
+[taifun1:01339] btl:tcp: my listening v4 socket is 0.0.0.0:1033
+[taifun1:01339] btl:tcp: examining interface eno1np0
+[taifun1:01339] btl:tcp: using ipv6 interface eno1np0
+[taifun1:01339] btl:tcp: examining interface eno2np1
+[taifun1:01339] btl:tcp: using ipv6 interface eno2np1
+[taifun1:01339] btl:tcp: examining interface ibp101s0
+[taifun1:01339] btl:tcp: using ipv6 interface ibp101s0
+[taifun1:01339] select: init of component tcp returned success
+[taifun1:01339] select: initializing btl component vader
+[taifun1:01339] select: init of component vader returned success
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: taifun1
+  Location: mtl_ofi_component.c:627
+  Error: No such file or directory (2)
+--------------------------------------------------------------------------
+[taifun1:01338] mca: base: close: component self closed
+[taifun1:01338] mca: base: close: unloading component self
+[taifun1:01338] mca: base: close: component tcp closed
+[taifun1:01338] mca: base: close: unloading component tcp
+[taifun1:01338] mca: base: close: component vader closed
+[taifun1:01338] mca: base: close: unloading component vader
+[taifun1:01339] mca: base: close: component self closed
+[taifun1:01339] mca: base: close: unloading component self
+[taifun1:01333] mca: base: close: component self closed
+[taifun1:01333] mca: base: close: unloading component self
+[taifun1:01339] mca: base: close: component tcp closed
+[taifun1:01339] mca: base: close: unloading component tcp
+[taifun1:01339] mca: base: close: component vader closed
+[taifun1:01339] mca: base: close: unloading component vader
+[taifun1:01333] mca: base: close: component tcp closed
+[taifun1:01333] mca: base: close: unloading component tcp
+[taifun1:01333] mca: base: close: component vader closed
+[taifun1:01333] mca: base: close: unloading component vader
+[taifun1:01332] mca: base: close: component self closed
+[taifun1:01332] mca: base: close: unloading component self
+[taifun1:01332] mca: base: close: component tcp closed
+[taifun1:01332] mca: base: close: unloading component tcp
+[taifun1:01332] mca: base: close: component vader closed
+[taifun1:01332] mca: base: close: unloading component vader
+[taifun1:01336] mca: base: close: component self closed
+[taifun1:01336] mca: base: close: unloading component self
+[taifun1:01336] mca: base: close: component tcp closed
+[taifun1:01336] mca: base: close: unloading component tcp
+[taifun1:01336] mca: base: close: component vader closed
+[taifun1:01336] mca: base: close: unloading component vader
+[taifun1:01331] mca: base: close: component self closed
+[taifun1:01331] mca: base: close: unloading component self
+[taifun1:01331] mca: base: close: component tcp closed
+[taifun1:01331] mca: base: close: unloading component tcp
+[taifun1:01331] mca: base: close: component vader closed
+[taifun1:01331] mca: base: close: unloading component vader
+[taifun1:01334] mca: base: close: component self closed
+[taifun1:01334] mca: base: close: unloading component self
+[taifun1:01334] mca: base: close: component tcp closed
+[taifun1:01334] mca: base: close: unloading component tcp
+[taifun1:01334] mca: base: close: component vader closed
+[taifun1:01334] mca: base: close: unloading component vader
+[taifun1:01335] mca: base: close: component self closed
+[taifun1:01335] mca: base: close: unloading component self
+[taifun1:01335] mca: base: close: component tcp closed
+[taifun1:01335] mca: base: close: unloading component tcp
+[taifun1:01335] mca: base: close: component vader closed
+[taifun1:01335] mca: base: close: unloading component vader
+[taifun1:01330] mca: base: close: component self closed
+[taifun1:01330] mca: base: close: unloading component self
+[taifun1:01330] mca: base: close: component tcp closed
+[taifun1:01330] mca: base: close: unloading component tcp
+[taifun1:01330] mca: base: close: component vader closed
+[taifun1:01330] mca: base: close: unloading component vader
+[taifun1:01337] mca: base: close: component self closed
+[taifun1:01337] mca: base: close: unloading component self
+[taifun1:01337] mca: base: close: component tcp closed
+[taifun1:01337] mca: base: close: unloading component tcp
+[taifun1:01337] mca: base: close: component vader closed
+[taifun1:01337] mca: base: close: unloading component vader
+[taifun1:01325] 9 more processes have sent help message help-mtl-ofi.txt / OFI call fail
+[taifun1:01325] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

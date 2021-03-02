@@ -1,0 +1,5 @@
+ Processor           1          18  -15.64774    
+ Processor           1          77  -30.00325    
+ Processor           1         123   92.37962    
+ Processor           1         140   9.972040    
+ Processor           1         273   30.75147    
